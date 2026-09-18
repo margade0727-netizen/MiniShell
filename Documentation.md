@@ -20,4 +20,13 @@ Documentation
             Deldir [foldername] [-f (force)]
         Move() - Call [move || mv] - Moves chosen file/folder
             move [path] [path2]
+        Open() - Call [open || op ] - Opens file in readable form. //can only open readable files//
+            open [path/filename]
+            op [path/filename]
     
+Non-user Dependent Functions /NDFs/ -- List of functions that are done by the CLI that isn't directly dependent on user (i.e isn't required to called-out to work)
+        command-check() --checks commands for validity. 
+        input-check() -- checks input for validity.
+        suggestion() -- suggests when user writes input.
+        
+
