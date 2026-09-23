@@ -143,10 +143,6 @@ char *cd(char *buf, size_t bufsize){
     }
     return buf;
 }
-#include <stdio.h>
-#include <string.h>
-#include <io.h>       // For _findfirst, _findnext, _findclose
-#include <direct.h>   // For _getcwd
 
 char *list(char *buf, size_t bufsize) {
     if (buf == NULL || bufsize == 0) return NULL;
